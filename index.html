@@ -121,6 +121,74 @@
 				    </video>
 		   		</section>
 		  	</article>
+
+		  	<article>
+		   		<header>
+				    <h3>Article About Using Video New Form Input Field</h3>
+				    <p>Created by <span>Omar</span> on <span>19/7/2020</span></p>
+		   		</header>
+		   		<section>
+				    <p>New input field</p>
+				    <form class="inputs">
+				    	<label>Color</label>
+				    	<input type="color" name="theme" value="#F00000">
+				    	<label>Range</label>
+				    	<input type="range" name="choose" min="0" max="10" value="1">
+				    	<label>Choose Number</label>
+				    	<input type="number" min="0" max="50">
+				    	<label>Email</label>
+				    	<input type="email">
+				    	<label>Search</label>
+				    	<input type="search" name="search">
+				    	<label>URL</label>
+				    	<input type="url" name="link">
+				    	<label>Telephone</label>
+				    	<input type="tel" name="telephone">
+				    	<label>Time</label>
+				    	<input type="time" name="time">
+				    	<label>Date Time</label>
+				    	<input type="datetime-local" name="datetime">
+				    	<label>Date</label>
+				    	<input type="Date" name="date">
+				    	<label>Month</label>
+				    	<input type="Month" name="month">
+				    	<label>Week</label>
+				    	<input type="week" name="week">
+				    	<input type="submit" name="send">
+				    </form>
+		   		</section>
+		  	</article>
+
+		  	<article>
+		   		<header>
+				    <h3>Article About Using Video New Form Attributes</h3>
+				    <p>Created by <span>Omar</span> on <span>19/7/2020</span></p>
+		   		</header>
+		   		<section>
+				    <p>New form attributes</p>
+				    <form id="main-form" class="inputs" action="process.php" method="get" enctype="" novalidate="">
+				    	<input type="text" name="username" autofocus="on" placeholder="Type your username">
+				    	<label>Email</label>
+				    	<input type="email" name="Email" autocomplete="off" multiple="">
+				    	<label>Number</label>
+				    	<input type="number" name="number" min="5" max="20" step="5">
+				    	<label>Pattern</label>
+				    	<input type="text" pattern="[A-Za-z]{6}">
+				    	<label>Read Only</label>
+				    	<input type="text" name="read" value="Omar-Read" readonly="">
+				    	<label>Disabled</label>
+				    	<input type="text" name="dis" value="Omar-Dis" disabled="">
+				    	<input type="submit" value="Default Submit">
+				    	<input type="submit" formaction="other.php" formmethod="post" value="Other Submit">
+				    	<input type="submit" formnovalidate value="submit without validation">
+				    	<input type="submit" formnovalidate formtarget="_blank" value="submit in new window">
+				    </form>
+				    <label>Nickname</label>
+				    <input type="text" name="nickname" form="main-form" required="">
+		   		</section>
+		  	</article>
+
+
 		</div>
 
 		<aside>
@@ -138,12 +206,12 @@
 		  	<section class="meters">
 		   		<h3>Performance</h3>
 		   		<div>
-				    CPU: <meter
-				       min      = "0"
-				       max      = "1"
-				       value    = ".6"
-				       low      = ".4"
-				       high     = ".8"
+				    CPU: <meter 
+				       min      = "0" 
+				       max      = "1" 
+				       value    = ".6" 
+				       low      = ".4" 
+				       high     = ".8" 
 				       optimum  = ".7"></meter>
 		   		</div>
 		  	</section>
@@ -166,8 +234,8 @@
 				  			<option value="Chrome">
 				  			<option value="Firefox">
 				  			<option value="Safari">
-				  			<option value="Opera">
-				  			<option value="Internet Explorer">
+				  			<option value="Opera">	
+				  			<option value="Internet Explorer">	
 			  			</datalist>
 			  		<input type="Submit" value="Choose">
 		  		</form>
@@ -193,8 +261,6 @@
 		</aside>
 
 		<div class="clearfix"></div>
-
-		<footer>الموقع تحت الصيانة يا كسمك</footer>
 
 		<footer>
 			Copyright 2020 &copy; All Rights Reserved

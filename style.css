@@ -118,6 +118,11 @@ main p mark{
 	background-color: #FFF;
 }
 
+.post article section .inputs input{
+	display: block;
+	margin-bottom: 5px;
+}
+
 aside{
 	float: right;
 	width: 30%;
