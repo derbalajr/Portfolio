@@ -153,9 +153,15 @@ aside section div{
 	margin-top: 10px;
 }
 
-footer {
+div h1{
 	background-color: #333;
 	color: #DDD;
 	text-align: center;
+	padding: 10px;
+}
+
+footer{
+	background-color: #333;
+	color: #DDD;
 	padding: 10px;
 }
