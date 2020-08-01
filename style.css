@@ -1,5 +1,6 @@
 * {
   -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -37,8 +38,8 @@ body {
 }
 
 .card .front {
-  z-index: 2;
   backface-visibility: hidden;
+  z-index: 2;
   background: url(images/bg.png);
 }
 
@@ -85,9 +86,9 @@ body {
 }
 
 .card .back {
+  backface-visibility: hidden;
   z-index: 1;
   transform: rotateY(180deg);
-  backface-visibility: hidden;
   background: url(images/bg2.png);
 }
 
