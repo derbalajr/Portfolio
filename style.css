@@ -101,15 +101,18 @@ body {
 
 .card .back ul li {
   display: inline;
-  margin: 10px;
+  padding: 5px;
 }
 
 .card .back .logo img {
-  width: 300px;
-  height: 300px;
+width: 300px;
+height: 300px;
 }
 
 .card .back .social_media img {
   width: 30px;
   height: 30px;
+
+
+
 }
